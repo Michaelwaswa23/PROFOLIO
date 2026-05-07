@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects — Michael Waswa</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    /* Additional styles - keeping consistent with existing card design */
+    .project-badge {
+      background: rgba(74, 240, 160, 0.15);
+      color: var(--accent);
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      display: inline-block;
+    }
+    .completed-badge {
+      background: rgba(74, 240, 160, 0.25);
+      color: var(--accent);
+      border: 1px solid var(--accent);
+    }
+    .project-role {
+      color: var(--accent2);
+      font-size: 0.75rem;
+      margin-top: 0.5rem;
+    }
+    hr {
+      border-color: var(--border);
+      margin: 2rem 0;
+    }
+    .section-title-small {
+      font-family: var(--font-head);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">MW<span class="logo-dot">.</span></a>
+      <nav class="nav" id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="project.html" class="active">Projects</a>
+        <a href="contacts.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" onclick="document.getElementById('main-nav').classList.toggle('open')">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-hero">
+      <h1>My <span>Projects</span></h1>
+      <p>A showcase of completed work from web development, networking, and system design.</p>
+    </div>
+
+    <section class="page-section">
+      
+      <!-- FEATURED COMPLETED PROJECTS SECTION -->
+      <h2 class="section-title-small">✅ Completed Projects</h2>
+      
+      <!-- PROJECT 1: Attachment Management System (Group Project - Project Manager) -->
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <div class="card-icon">📋</div>
+        <h3>Attachment Management System</h3>
+        <div class="project-badge completed-badge" style="margin: 0.5rem 0;">✅ Completed | Group Project | Project Manager</div>
+        <p>A web-based system that automates student attachment applications, company placement, logbook entry, and communication between students, lecturers, and companies. Led a team of 7 members, coordinated development sprints, managed documentation, and ensured timely delivery of the system.</p>
+        <div class="tag-cloud" style="margin-top:1rem;">
+          <span class="tag">PHP</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">XAMPP</span>
+        </div>
+        <div class="project-role">🎯 Role: Project Manager & Full-stack Developer</div>
+        <div style="margin-top:1.25rem;">
+          <span style="color: var(--accent); font-size: 0.75rem;">📅 Completed: December 2024</span>
+        </div>
+      </div>
+
+      <!-- PROJECT 2: Bursary Distribution Management System (Individual Project) -->
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <div class="card-icon">💰</div>
+        <h3>Bursary Distribution Management System</h3>
+        <div class="project-badge completed-badge" style="margin: 0.5rem 0;">✅ Completed | Individual Project | Lead Developer</div>
+        <p>A comprehensive web platform automating bursary application, verification, and distribution. Features multi-stage verification (Chief/Sub-Chief location verification), AI-powered ranking, committee human review, automatic budget distribution, and real-time tracking for students.</p>
+        <div class="tag-cloud" style="margin-top:1rem;">
+          <span class="tag">PHP Core</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Tailwind CSS</span>
+          <span class="tag">AI Algorithm</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="project-role">🎯 Role: Solo Developer & System Architect</div>
+        <div style="margin-top:1.25rem;">
+          <span style="color: var(--accent); font-size: 0.75rem;">📅 Completed: January 2025</span>
+        </div>
+      </div>
+
+      <!-- PROJECT 3: Portfolio Websites (Personal + Lugari MP - Combined) -->
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <div class="card-icon">🌐</div>
+        <h3>Portfolio Web Development</h3>
+        <div class="project-badge completed-badge" style="margin: 0.5rem 0;">✅ Completed | Freelance & Personal Projects</div>
+        <p><strong>Lugari MP Official Portfolio:</strong> Designed and developed a professional portfolio website for the Member of Parliament of Lugari Constituency. The site showcases legislative achievements, development projects, constituency news, and community engagement initiatives with modern responsive design.</p>
+        <p style="margin-top: 0.75rem;"><strong>Personal Portfolio:</strong> Built this responsive multi-page portfolio website (the site you're on now) using HTML, CSS, and JavaScript — showcasing skills, education, projects, and professional journey with dark theme and smooth animations.</p>
+        <div class="tag-cloud" style="margin-top:1rem;">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Responsive Design</span>
+          <span class="tag">SEO Optimization</span>
+        </div>
+        <div class="project-role">🎯 Role: Freelance Web Developer (Lugari MP) & UI Designer (Personal)</div>
+        <div style="margin-top:1.25rem;">
+          <span style="color: var(--accent); font-size: 0.75rem;">📅 Completed: November 2024 (Lugari MP) / March 2025 (Personal)</span>
+        </div>
+      </div>
+
+      <!-- PROJECT 4: Network Design & Simulation -->
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <div class="card-icon">🔌</div>
+        <h3>Network Design & Simulation</h3>
+        <div class="project-badge completed-badge" style="margin: 0.5rem 0;">✅ Completed | Academic Project</div>
+        <p>Designed and simulated a multi-department enterprise network using Cisco Packet Tracer — including VLANs, routing protocols (OSPF, EIGRP), subnetting, and network security configurations.</p>
+        <div class="tag-cloud" style="margin-top:1rem;">
+          <span class="tag">Cisco</span>
+          <span class="tag">Packet Tracer</span>
+          <span class="tag">VLANs</span>
+          <span class="tag">OSPF</span>
+          <span class="tag">Subnetting</span>
+        </div>
+        <div style="margin-top:1.25rem;">
+          <span style="color: var(--accent); font-size: 0.75rem;">📅 Completed: October 2024</span>
+        </div>
+      </div>
+
+      <!-- PROJECT 5: Database Management System -->
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <div class="card-icon">🗄️</div>
+        <h3>Database Management System</h3>
+        <div class="project-badge completed-badge" style="margin: 0.5rem 0;">✅ Completed | Academic Project</div>
+        <p>Built a relational database system for a university use-case using MySQL — covering schema design, complex queries, stored procedures, triggers, and data manipulation with full documentation.</p>
+        <div class="tag-cloud" style="margin-top:1rem;">
+          <span class="tag">MySQL</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Database Design</span>
+          <span class="tag">Stored Procedures</span>
+        </div>
+        <div style="margin-top:1.25rem;">
+          <span style="color: var(--accent); font-size: 0.75rem;">📅 Completed: September 2024</span>
+        </div>
+      </div>
+
+      <!-- PROJECT 6: Graphic Design Portfolio -->
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <div class="card-icon">🎨</div>
+        <h3>Graphic Design Portfolio</h3>
+        <div class="project-badge completed-badge" style="margin: 0.5rem 0;">✅ Completed | Freelance Work</div>
+        <p>Created a range of digital graphics and marketing materials for campus events, social media campaigns, and brand identity projects using Canva, Adobe Photoshop, and Clipchamp.</p>
+        <div class="tag-cloud" style="margin-top:1rem;">
+          <span class="tag">Canva</span>
+          <span class="tag">Photoshop</span>
+          <span class="tag">Clipchamp</span>
+          <span class="tag">Brand Design</span>
+        </div>
+        <div style="margin-top:1.25rem;">
+          <span style="color: var(--accent); font-size: 0.75rem;">📅 Completed: Various (2023-2025)</span>
+        </div>
+      </div>
+
+      <p style="color:var(--muted); font-size:0.9rem; margin-top:3rem; text-align:center;">
+        All projects listed above are fully completed. For collaboration or inquiries about any project, <a href="contacts.html" style="color:var(--accent);">reach out to me</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-name">Michael Waswa</p>
+      <div class="footer-links">
+        <a href="mailto:michaelkevogo5@gmail.com">michaelkevogo5@gmail.com</a>
+        <a href="https://www.linkedin.com/in/michael-waswa-8809842a7" target="_blank">LinkedIn</a>
+        <a href="https://michaelwaswa.netlify.app/" target="_blank">Live Portfolio</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Michael Waswa. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile navigation fix
+    const navToggle = document.querySelector('.nav-toggle');
+    const mainNav = document.getElementById('main-nav');
+    if (navToggle) {
+      navToggle.addEventListener('click', function() {
+        mainNav.classList.toggle('open');
+      });
+    }
+    
+    // Add Font Awesome for icons if not already loaded
+    if (!document.querySelector('link[href*="font-awesome"]')) {
+      const fontAwesome = document.createElement('link');
+      fontAwesome.rel = 'stylesheet';
+      fontAwesome.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css';
+      document.head.appendChild(fontAwesome);
+    }
+    
+    console.log('%c✨ Projects Page Loaded!', 'color: #4af0a0; font-size: 14px;');
+    console.log('%c📁 All projects marked as COMPLETED', 'color: #7a8090;');
+    console.log('%c🌐 Portfolio projects combined: Personal + Lugari MP', 'color: #7a8090;');
+  </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "michael-waswa-contact-server",
+  "version": "1.0.0",
+  "description": "Simple local contact form backend using Node.js + MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.4.1"
+  }
+}
